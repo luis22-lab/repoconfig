@@ -1,0 +1,6 @@
+server:
+  port: 9006
+  servlet:
+    context-path: /paises
+remote:
+  url: https://restcountries.com/v2/all?fields=name,region,population,capital,flag
